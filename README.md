@@ -27,12 +27,14 @@ This is a simple Python script that checks the validity of subdomains by sending
 
 2. Make sure you have the requests library installed. You can install it using pip:
 
+   ```bash
    pip install requests
 
 3. Create a text file named subdomains.txt and add the list of subdomains you want to check, one per line.
 
 4. Run the script with the base domain as a command-line argument:
-    
+   
+   ```python
    python script.py example.com
 
    Replace example.com with the base domain you want to check against.
